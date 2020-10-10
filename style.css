@@ -24,8 +24,9 @@ body {
         font-family: "roboto", Helvetica, Arial, sans-serif;
     }
 h1 {
-        font-family: "shrik";
-        
+        font-family: 'Shrikhand', cursive;
+        text-align: center;
+        margin-top: 10px;
     }
 h2 {
        font-family: "shrik";
