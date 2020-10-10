@@ -1,8 +1,17 @@
 @font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway-Regular.ttf') format('truetype'),
+    font-family: 'shrik';
+    src: url('fonts/Shrikhand-Regular.ttf'),
          
 }
+
+@font-face {
+    font-family: 'roboto';
+    font-style:regular;
+    src: url('fonts/Roboto-Regular.ttf'),
+         
+}
+
+
 html, body {
     margin:0;
     padding:0;
@@ -10,7 +19,25 @@ html, body {
     height: 100%;
     overflow-x: hidden;
     }
+
+body {
+        font-family: "roboto", Helvetica, Arial, sans-serif;
+    }
+h1 {
+        font-family: "shrik";
+        
+    }
+h2 {
+       font-family: "shrik";
+    }
+h3 {
+    font-family: "shrik";
+    }
 p {
-    font-size: 26rem;
-}
+        font-family: "roboto", Helvetica, Arial, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+
 
