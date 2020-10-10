@@ -54,7 +54,7 @@ p {
     padding-bottom: 30px;
 }
 
-#titre h2, p {
+#titre h2, #titre p {
     text-align: center;
 }
 
@@ -89,4 +89,47 @@ p {
     margin: auto;
 }
 
+#fonctionnement {
+margin-top: 50px;
+padding-left: 14px;
+}
+#fonctionnement h2 {
+padding-left: 5px;
+
+}
+
+.fonctionnement_item {
+    background-color: #f6f6f6;
+    font-size: 20px;
+    padding: 0.2em;
+    border-radius: 25px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.number  {
+    font-size: 0.8em;
+    float: left;
+    padding: 2px;
+    position: relative;
+    left: -15px;
+    background-color: #9356DC;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 77px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-top: 21px;
+    margin-right: 10px;
+}
+
+.font_small {
+    font-size: medium;
+}
+
+.fa-mobile-alt:before {
+    content: "\f3cd";
+    padding-right: 26px;
+}
 
