@@ -27,6 +27,7 @@ h1 {
         font-family: 'Shrikhand', cursive;
         text-align: center;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
 h2 {
        font-family: "shrik";
@@ -40,5 +41,16 @@ p {
         font-weight: normal;
     }
 
+#localisation {
+    background-color: #eaeaea;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+    margin-right: 17px;
+}
 
 
