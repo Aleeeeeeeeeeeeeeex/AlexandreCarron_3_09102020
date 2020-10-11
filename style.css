@@ -35,6 +35,9 @@ p {
         font-family: "roboto", Helvetica, Arial, sans-serif;
         
     }
+.light {
+    font-weight: 200;
+}
 
 #localisation {
     background-color: #eaeaea;
@@ -82,11 +85,13 @@ p {
     color: #ffffff;
     font-size: 20px;
     cursor: pointer;
-    padding: 0.8em;
+    padding: 1em;
     border-radius: 10rem;
     text-align: center;
     width: 11em;
     margin: auto;
+    font-size: medium;
+    font-weight: 400;
 }
 
 #fonctionnement {
@@ -133,6 +138,13 @@ padding-left: 5px;
     padding-right: 26px;
 }
 
+#restaurant {
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #f6f6f6;
+}
+
 .flexbox {
     display: flex;
     flex-wrap: wrap;
@@ -141,25 +153,54 @@ padding-left: 5px;
 .image {
         
         background-size: cover;
-        width: 15em;
-        height: 7em;
+        width: 100%;
+        height: 10em;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
     
 }
 
+.texte {
+    background-color: #ffffff;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding-top: 1px;
+    padding-left: 15px;
+    height: 76px;
+}
+
+.position {
+    margin-top: -10px;
+    padding-bottom: 15px;
+    
+}
+
+.bloc_restaurant {
+    margin: auto;
+    width: 20em;
+    margin-bottom: 20px;
+}
+
+.fa-heart:before {
+    content: "\f004";
+    position: relative;
+    top: -69px;
+    left: 260px;
+    font-size: 24px;
+}
+
 #background_image_menilmontant {
-    background-image: url(images/restaurants/photo1.jpg);
+    background-image: url(images/restaurants/menilmontant.jpg);
 }
 
 #background_image_charonne {
-    background-image: url(images/restaurants/photo1.jpg);
+    background-image: url(images/restaurants/charonne.jpg);
 }
 
 #background_image_citerouge {
-    background-image: url(images/restaurants/photo1.jpg);
+    background-image: url(images/restaurants/citerouge.jpg);
 }
 
 #background_image_folie {
-    background-image: url(images/restaurants/photo1.jpg);
+    background-image: url(images/restaurants/folie.jpg);
 }
