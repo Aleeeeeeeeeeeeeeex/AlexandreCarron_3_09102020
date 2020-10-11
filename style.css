@@ -137,3 +137,29 @@ padding-left: 5px;
     display: flex;
     flex-wrap: wrap;
 }
+
+.image {
+        
+        background-size: cover;
+        width: 15em;
+        height: 7em;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    
+}
+
+#background_image_menilmontant {
+    background-image: url(images/restaurants/photo1.jpg);
+}
+
+#background_image_charonne {
+    background-image: url(images/restaurants/photo1.jpg);
+}
+
+#background_image_citerouge {
+    background-image: url(images/restaurants/photo1.jpg);
+}
+
+#background_image_folie {
+    background-image: url(images/restaurants/photo1.jpg);
+}
