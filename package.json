@@ -1,0 +1,23 @@
+{
+  "name": "installation_sass",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex2020Git/AlexandreCarron_3_09102020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex2020Git/AlexandreCarron_3_09102020/issues"
+  },
+  "homepage": "https://github.com/Alex2020Git/AlexandreCarron_3_09102020#readme",
+  "dependencies": {
+    "writing-sass": "file:sass"
+  },
+  "devDependencies": {}
+}
