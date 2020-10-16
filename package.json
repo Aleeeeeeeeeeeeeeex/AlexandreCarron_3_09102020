@@ -1,23 +1,19 @@
 {
-  "name": "installation_sass",
+  "name": "writing-sass",
   "version": "1.0.0",
-  "description": "\"\"",
+  "description": "Joe Blow's portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alex2020Git/AlexandreCarron_3_09102020.git"
+    "url": "git+https://github.com/gerkx/maintainable-css-with-sass.git"
   },
-  "author": "",
+  "author": "gerkx",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alex2020Git/AlexandreCarron_3_09102020/issues"
+    "url": "https://github.com/gerkx/maintainable-css-with-sass/issues"
   },
-  "homepage": "https://github.com/Alex2020Git/AlexandreCarron_3_09102020#readme",
-  "dependencies": {
-    "writing-sass": "file:sass"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/gerkx/maintainable-css-with-sass#readme"
 }
