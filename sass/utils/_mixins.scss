@@ -21,7 +21,7 @@
         }
 }
 
-@mixin btn {
+/*@mixin btn {
     padding: $grid-gutter;
     @include border;
     color: $colour-primary;
@@ -36,3 +36,20 @@
         margin: 0 auto;
     }
 }
+*/
+
+
+  
+@mixin btn {
+    background: linear-gradient(#FF79DA, #9356DC);
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 10rem;
+    text-align: center;
+    width: 11em;
+    margin: auto;
+    font-size: medium;
+    font-weight: 400;
+  }
