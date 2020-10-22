@@ -210,19 +210,19 @@ p {
 }
 
 #background_image_menilmontant {
-  background-image: url(/images/restaurants/menilmontant.jpg);
+  background-image: url(../../images/restaurants/menilmontant.jpg);
 }
 
 #background_image_charonne {
-  background-image: url(/images/restaurants/charonne.jpg);
+  background-image: url(../../images/restaurants/charonne.jpg);
 }
 
 #background_image_citerouge {
-  background-image: url(/images/restaurants/citerouge.jpg);
+  background-image: url(../../images/restaurants/citerouge.jpg);
 }
 
 #background_image_folie {
-  background-image: url(/images/restaurants/folie.jpg);
+  background-image: url(../../images/restaurants/folie.jpg);
 }
 
 footer {
