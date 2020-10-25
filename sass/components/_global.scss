@@ -1,6 +1,4 @@
-.btn {
-    @include btn
-}
+
 
 .btn {
     background: linear-gradient(#FF79DA, #9356DC);
@@ -14,4 +12,13 @@
     margin: auto;
     font-size: medium;
     font-weight: 400;
+  }
+
+  .menu__item{
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 18em;
+    margin-right: 2%;
+    margin: auto;
   }
