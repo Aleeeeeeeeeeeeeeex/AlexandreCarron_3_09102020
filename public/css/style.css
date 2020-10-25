@@ -162,6 +162,15 @@ p {
   font-size: 13px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 #localisation {
   background-color: #eaeaea;
   text-align: center;
@@ -233,9 +242,15 @@ p {
   font-size: 20px;
   padding: 0.2em;
   border-radius: 25px;
-  width: 18em;
+  width: 16.5em;
   margin: auto;
   margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.fonctionnement_item:hover {
+  background-color: #f5edff;
 }
 
 .number {
@@ -258,8 +273,7 @@ p {
   font-size: medium;
 }
 
-.fa-mobile-alt:before {
-  content: "";
+.item__picto-position {
   padding-right: 26px;
 }
 
@@ -274,6 +288,7 @@ p {
 .flexbox {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .image {
