@@ -14,11 +14,13 @@
     font-weight: 400;
   }
 
-  .menu__item{
-    display: flex;
-    background-color: #ffffff;
-    border-radius: 20px;
-    width: 18em;
-    margin-right: 2%;
-    margin: auto;
+  .titre__menu-border 
+    {
+      border-bottom-style: solid;
+      border-color: $color-green;
+      padding-bottom: 5px;
+      border-width: 1.5px
+      width: 44px;
   }
+
+
