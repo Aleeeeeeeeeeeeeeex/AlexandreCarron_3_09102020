@@ -21,6 +21,10 @@
   width: 44px;
 }
 
+.position_cta_commander {
+  margin-top: 33px;
+}
+
 .section__titremenu {
   display: flex;
   padding-left: 20px;
@@ -413,6 +417,18 @@ footer {
 
 .position_cta_commander {
   margin-top: 33px;
+}
+
+#header_background_image_charonne {
+  background-image: url(../../images/restaurants/charonne.jpg);
+}
+
+#header_background_image_cite {
+  background-image: url(../../images/restaurants/citerouge.jpg);
+}
+
+#header_background_image_folie {
+  background-image: url(../../images/restaurants/folie.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */
