@@ -316,16 +316,23 @@ a:visited {
 }
 
 .texte_bloc {
-  margin-right: 41%;
+  width: 255px;
 }
 
 .heart {
   padding-right: 20px;
   padding-top: 20px;
+  background: no-repeat;
+  background-image: url(../../images/logo/heart-regular.svg);
+  margin-top: 16px;
 }
 
-.testdisplay {
-  display: none;
+.heart:hover {
+  background-image: url(../../images/logo/heart-solid.svg);
+}
+
+.svg-inline--fa {
+  color: #FF79DA;
 }
 
 .position {
