@@ -56,6 +56,10 @@
   font-weight: 400;
 }
 
+.fa-heart:hover {
+  background-color: linear-gradient(#FF79DA, #9356DC);
+}
+
 #fonctionnement {
   margin-top: 50px;
   padding-left: 14px;
@@ -76,11 +80,15 @@
     margin-bottom: 20px;
     margin-right: 10px;
     margin-left: 10px;
+    box-shadow: 4px 4px 5px #eaeaea;
+    &:hover {
+      background-color: $color-violet-clair;
+   .item__picto-position { 
+      color:#9356DC;
+  }
+}
 }
 
-.fonctionnement_item:hover {
-  background-color: $color-violet-clair;
-}
 
 .number {
   font-size: 0.8em;
@@ -146,6 +154,10 @@
 .heart {
   padding-right: 20px;
   padding-top: 20px;
+}
+
+.testdisplay {
+  display: none;
 }
 
 .position {

@@ -227,6 +227,10 @@ a:visited {
   font-weight: 400;
 }
 
+.fa-heart:hover {
+  background-color: linear-gradient(#FF79DA, #9356DC);
+}
+
 #fonctionnement {
   margin-top: 50px;
   padding-left: 14px;
@@ -247,10 +251,13 @@ a:visited {
   margin-bottom: 20px;
   margin-right: 10px;
   margin-left: 10px;
+  box-shadow: 4px 4px 5px #eaeaea;
 }
-
 .fonctionnement_item:hover {
   background-color: #f5edff;
+}
+.fonctionnement_item:hover .item__picto-position {
+  color: #9356DC;
 }
 
 .number {
@@ -315,6 +322,10 @@ a:visited {
 .heart {
   padding-right: 20px;
   padding-top: 20px;
+}
+
+.testdisplay {
+  display: none;
 }
 
 .position {
