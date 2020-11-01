@@ -6,9 +6,46 @@
     }
 }*/
 
+.fa-check-circle:before {
+    content: "\f058";
+    color: white;
+    font-size: 24px;
+  
+    
+}
+
 .menu__item-animation {
-    width: 68px;
+    width: 62px;
     background-color:$color-green;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+    transform: scaleX(0);
+    
+}
+.turn{
+       
+    margin-top: 18px;
+    margin-left: 14px;
+}
+
+
+.menu__item:hover{
+    .turn i{
+    transform: rotate(-360deg);
+    transition: transform 500ms ease-in-out;
+            }
+    .menu__itemprix-direction {
+            
+        transform-origin: 100% 0%;
+        transform: scaleX(1);
+        transition: transform 1000ms;
+        transform: translate(-50px,0px);
+            }    
+            
+    .menu__item-animation {
+        transform-origin: 100% 0%;
+        transform: scaleX(1);
+        transition: transform 1000ms; 
+    }
+   
 }
