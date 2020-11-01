@@ -75,6 +75,7 @@
 }
 
 .menu__item-direction {
+  position: absolute;
   flex: 1;
   padding-left: 12px;
   line-height: 5px;
@@ -86,6 +87,11 @@
   position: relative;
   left: 32px;
   font-weight: 800;
+  background-color: white;
+}
+
+.marginleftmenu {
+  margin-left: 235px;
 }
 
 /*@function lightness-shift($colour) {
@@ -114,6 +120,11 @@
   margin-left: 14px;
 }
 
+.troispoints {
+  visibility: hidden;
+  margin-left: 220px;
+}
+
 .menu__item:hover .turn i {
   transform: rotate(-360deg);
   transition: transform 500ms ease-in-out;
@@ -128,6 +139,11 @@
   transform-origin: 100% 0%;
   transform: scaleX(1);
   transition: transform 1000ms;
+}
+.menu__item:hover .troispoints {
+  visibility: visible;
+  background-color: white;
+  padding-right: 3px;
 }
 
 /*.header {

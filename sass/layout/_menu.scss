@@ -53,6 +53,7 @@
   }
 
 .menu__item-direction {
+    position: absolute;
     flex: 1;
     padding-left: 12px;
     line-height: 5px;
@@ -64,4 +65,9 @@
     position: relative;
     left: 32px;
     font-weight: 800;
+    background-color: white;
+}
+
+.marginleftmenu {
+    margin-left: 235px;
 }
