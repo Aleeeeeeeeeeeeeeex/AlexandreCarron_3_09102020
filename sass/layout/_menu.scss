@@ -30,7 +30,58 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    animation: menu__entree 3000ms;
+
+   
 }
+
+.entree {
+    animation: entree 2000ms;
+}
+
+@keyframes entree{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.plat {
+    animation: plat 2000ms;
+}
+
+@keyframes plat{
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0.2;
+    }
+   
+    100% {
+        opacity: 1;
+    }
+}
+
+.dessert{
+    animation: dessert 8s;
+}
+
+@keyframes dessert{
+    0% {
+        opacity: 0;
+    }
+   
+    100% {
+        opacity: 1;
+    }
+}
+
 
 .section__typemenu {
     
