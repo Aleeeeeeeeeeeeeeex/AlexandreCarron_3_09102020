@@ -59,15 +59,15 @@
 }
 
 .entree {
-  animation: entree 2000ms;
+  animation: entree 1000ms;
 }
 
 @keyframes entree {
   0% {
     opacity: 0;
   }
-  50% {
-    opacity: 0.5;
+  90% {
+    opacity: 0.2;
   }
   100% {
     opacity: 1;
@@ -89,12 +89,15 @@
   }
 }
 .dessert {
-  animation: dessert 8s;
+  animation: dessert 3000ms;
 }
 
 @keyframes dessert {
   0% {
     opacity: 0;
+  }
+  90% {
+    opacity: 0.2;
   }
   100% {
     opacity: 1;
