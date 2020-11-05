@@ -13,6 +13,11 @@
   font-weight: 400;
 }
 
+.btn:hover {
+  box-shadow: 2px 2px 7px #aaa;
+  opacity: 0.8;
+}
+
 .titre__menu-border {
   border-bottom-style: solid;
   border-color: #99e2d0;
