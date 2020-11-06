@@ -243,7 +243,6 @@
 }
 @font-face {
   font-family: "roboto";
-  font-style: regular;
   src: url("fonts/Roboto-Regular.ttf");
 }
 html, body {
@@ -349,10 +348,6 @@ a:visited {
   margin: auto;
   font-size: medium;
   font-weight: 400;
-}
-
-.fa-heart:hover {
-  background-color: linear-gradient(#FF79DA, #9356DC);
 }
 
 #fonctionnement {
@@ -576,7 +571,6 @@ footer {
 
 .lds-facebook div:nth-child(3) {
   left: 56px;
-  animation-delay: 0;
 }
 
 .visibility {
