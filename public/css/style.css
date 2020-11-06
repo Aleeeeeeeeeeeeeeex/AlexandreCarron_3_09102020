@@ -124,6 +124,11 @@
   margin-right: 10px;
   margin-left: 10px;
 }
+@media screen and (max-width: 350px) {
+  .menu__item {
+    width: 310px;
+  }
+}
 
 .menu__item-direction {
   position: absolute;
@@ -372,16 +377,17 @@ a:visited {
   margin-left: 10px;
   box-shadow: 4px 4px 5px #eaeaea;
 }
+@media screen and (max-width: 350px) {
+  .fonctionnement_item {
+    width: 278px;
+    margin-left: 1px;
+  }
+}
 .fonctionnement_item:hover {
   background-color: #f5edff;
 }
 .fonctionnement_item:hover .item__picto-position {
   color: #9356DC;
-}
-@media screen and (max-width: 350px) {
-  .fonctionnement_item:hover .item__picto-position {
-    width: 100px;
-  }
 }
 
 .number {
@@ -449,6 +455,11 @@ a:visited {
   background: no-repeat;
   background-image: url(../../images/logo/heart-regular.svg);
   margin-top: 16px;
+}
+@media screen and (max-width: 350px) {
+  .heart {
+    padding-right: 38px;
+  }
 }
 
 .heart:hover {
@@ -536,9 +547,12 @@ footer {
   width: 80px;
   height: 80px;
   display: inline;
-  position: relative;
-  top: 50%;
-  left: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .lds-facebook div {

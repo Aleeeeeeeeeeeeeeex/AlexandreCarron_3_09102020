@@ -81,16 +81,19 @@
     margin-right: 10px;
     margin-left: 10px;
     box-shadow: 4px 4px 5px #eaeaea;
+    @include mobile-only;
+
+  
     &:hover {
       background-color: $color-violet-clair;
    .item__picto-position { 
       color:#9356DC;
-    @media screen and (max-width: 350px) {
-        width: 100px
-    }
+   
   }
 }
 }
+
+
 
 
 .number {
@@ -160,6 +163,7 @@
   background: no-repeat;
   background-image: url(../../images/logo/heart-regular.svg);
   margin-top: 16px;
+  @include mobile-heart
 }
 
 .heart:hover {
@@ -251,9 +255,9 @@ footer {
   width: 80px;
   height: 80px;
   display: inline;
-  position: relative;
-    top: 50%;
-    left: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 
 }
 .lds-facebook div {
