@@ -85,6 +85,9 @@
       background-color: $color-violet-clair;
    .item__picto-position { 
       color:#9356DC;
+    @media screen and (max-width: 350px) {
+        width: 100px
+    }
   }
 }
 }
