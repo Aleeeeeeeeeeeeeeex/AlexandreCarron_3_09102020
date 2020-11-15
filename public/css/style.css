@@ -150,13 +150,7 @@
   margin-left: 235px;
 }
 
-/*@function lightness-shift($colour) {
-    @if (lightness($colour) < 25%){
-        @return lighten($colour, 10%);
-    }@else{
-        @return darken($colour, 10%);
-    }
-}*/
+/* Amimation: séléction plat */
 .fa-check-circle:before {
   content: "";
   color: white;
@@ -202,6 +196,131 @@
   padding-right: 3px;
 }
 
+/* Animation: Affichage des plats */
+.entree {
+  animation: entree 1000ms;
+}
+
+@keyframes entree {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.plat {
+  animation: plat 2000ms;
+}
+
+@keyframes plat {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.dessert {
+  animation: dessert 3000ms;
+}
+
+@keyframes dessert {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Loading Spinner */
+.lds-facebook {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  display: inline;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #353535;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+}
+
+.visibility {
+  animation: visibility 3000ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes visibility {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+.spinner {
+  animation: spinner 3000ms;
+}
+
+@keyframes spinner {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*.header {
     background: $colour-primary;
     height: 10rem;
@@ -235,6 +354,21 @@
 .header__arrow-position {
   position: relative;
   left: 25px;
+}
+
+footer {
+  background-color: #353535;
+  color: #ffffff;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 27px;
+  padding-bottom: 20px;
+}
+
+#footer {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
 }
 
 @font-face {
@@ -510,21 +644,6 @@ a:visited {
   background-image: url(../../images/restaurants/folie.jpg);
 }
 
-footer {
-  background-color: #353535;
-  color: #ffffff;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-left: 27px;
-  padding-bottom: 20px;
-}
-
-#footer {
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 25px;
-}
-
 .fa-utensils:before {
   content: "";
   padding-right: 8px;
@@ -536,85 +655,6 @@ footer {
   font-size: 12px;
 }
 
-/* Loading Spinner */
-.lds-facebook {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  display: inline;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-.lds-facebook div {
-  display: inline-block;
-  position: absolute;
-  left: 8px;
-  width: 16px;
-  background: #353535;
-  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
-}
-
-.lds-facebook div:nth-child(1) {
-  left: 8px;
-  animation-delay: -0.24s;
-}
-
-.lds-facebook div:nth-child(2) {
-  left: 32px;
-  animation-delay: -0.12s;
-}
-
-.lds-facebook div:nth-child(3) {
-  left: 56px;
-}
-
-.visibility {
-  animation: visibility 3000ms;
-  animation-fill-mode: forwards;
-}
-
-@keyframes visibility {
-  0% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-@keyframes lds-facebook {
-  0% {
-    top: 8px;
-    height: 64px;
-  }
-  100% {
-    top: 24px;
-    height: 32px;
-  }
-}
-.spinner {
-  animation: spinner 3000ms;
-}
-
-@keyframes spinner {
-  0% {
-    opacity: 0;
-  }
-  90% {
-    opacity: 0.1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 #header_background_image_menu-fr {
   background-image: url(../../images/restaurants/citerouge.jpg);
 }
