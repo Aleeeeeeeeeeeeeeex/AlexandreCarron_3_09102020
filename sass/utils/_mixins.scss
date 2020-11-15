@@ -1,5 +1,5 @@
 
-@mixin mobile-only {
+@mixin mobile-item {
     @media screen and (max-width: $breakpoints-mobile){
     width: 278px;
     margin-left: 1px;
