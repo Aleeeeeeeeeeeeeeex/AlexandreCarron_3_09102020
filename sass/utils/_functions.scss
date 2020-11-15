@@ -1,10 +1,4 @@
-/*@function lightness-shift($colour) {
-    @if (lightness($colour) < 25%){
-        @return lighten($colour, 10%);
-    }@else{
-        @return darken($colour, 10%);
-    }
-}*/
+/* Amimation: séléction plat */
 
 .fa-check-circle:before {
     content: "\f058";
@@ -59,6 +53,62 @@
     }
    
 }
+
+
+
+/* Animation: Affichage des plats */
+
+.entree {
+    animation: entree 1000ms;
+}
+
+@keyframes entree{
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.plat {
+    animation: plat 2000ms;
+}
+
+@keyframes plat{
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0.2;
+    }
+   
+    100% {
+        opacity: 1;
+    }
+}
+
+.dessert{
+    animation: dessert 3000ms;
+}
+
+@keyframes dessert{
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0.2;
+    }
+   
+    100% {
+        opacity: 1;
+    }
+}
+
+
 
 /* Loading Spinner */
 
