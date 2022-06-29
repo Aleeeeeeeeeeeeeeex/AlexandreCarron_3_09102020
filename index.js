@@ -1,11 +1,8 @@
-let x = 2;
-let y = 5;
+function faireQuelqueChose() {
+  console.log("je fais quelque chose");
+}
 
-if (x < y) {
-  console.log("c'est vrai");
-  console.log("c'est vrai");
-  console.log("c'est vrai");
-  
-  console.log("c'est vrai");
-  console.log("c'est vrai");
-} else
+const faireUneTache = (tache) => {
+  console.log("je fais : " + tache);
+};
+faireUneTache("les courses");
